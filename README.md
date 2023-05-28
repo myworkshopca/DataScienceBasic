@@ -33,3 +33,15 @@ touch ~/rd/myworkshopca/DataScienceBasic/docker/README.md
 touch ~/rd/myworkshopca/DataScienceBasic/docker/Dockerfile
 touch ~/rd/myworkshopca/DataScienceBasic/docker/docker-compose.yml
 ```
+
+## lessons
+
+Create the lessons folder
+```bash
+mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons
+```
+
+01 Defining Data Science
+```bash
+mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/01-defining-data-science
+```
