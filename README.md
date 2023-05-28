@@ -14,3 +14,22 @@ This lesson will based on the following free only courses:
   4 hours course for beginners
 - [Google: Data Sciense with Python](https://learndigital.withgoogle.com/digitalgarage/course/data-science-with-python)
   8 hours course for advanced users, 13 modules.
+
+## Using Docker Compose for Local Development ##
+
+The repo [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks) has
+a various list of docker images for running Jupyter Notebooks.
+It is a very good choice for local development.
+
+Check the page [Select an Image](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
+to select the image you need.
+For this course we will use [jupyter/scipy-notebook](https://github.com/jupyter/docker-stacks/tree/main/scipy-notebook).
+
+Set up the docker compose folder.
+```bash
+mkdir -v ~/rd/myworkshopca/DataScienceBasic/docker
+
+touch ~/rd/myworkshopca/DataScienceBasic/docker/README.md
+touch ~/rd/myworkshopca/DataScienceBasic/docker/Dockerfile
+touch ~/rd/myworkshopca/DataScienceBasic/docker/docker-compose.yml
+```
