@@ -45,3 +45,8 @@ mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons
 ```bash
 mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/01-defining-data-science
 ```
+
+04 A brief introduction to Statistics and Probability
+```bash
+mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/04-stats-and-probability
+```
