@@ -34,6 +34,7 @@ cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose build
 # start notebook server
 cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose start
 cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose restart
+cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose stop
 ```
 
 After the notebook container started, we could access the notebook from
