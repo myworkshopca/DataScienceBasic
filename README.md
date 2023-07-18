@@ -49,4 +49,11 @@ mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/01-defining-data-science
 04 A brief introduction to Statistics and Probability
 ```bash
 mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/04-stats-and-probability
+# we need the data folder too
+mkdir -v ~/rd/myworkshopca/DataScienceBasic/data
+```
+
+05 Relational Databses
+```bash
+mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/05-relational-databases
 ```
