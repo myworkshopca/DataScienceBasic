@@ -61,6 +61,10 @@ mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/05-relational-databases
 07 python
 ```bash
 mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/07-python
-vert new ~/rd/myworkshopca/DataScienceBasic/lessons/07-python/panada-basic.ipynb
 mv -v ~/Downloads/notebook.ipynb ~/rd/myworkshopca/DataScienceBasic/lessons/07-python/panada-basic.ipynb
+```
+
+curl to download file from github
+```bash
+curl -L https://github.com/microsoft/Data-Science-For-Beginners/raw/main/2-Working-With-Data/07-python/notebook-covidspread.ipynb -o ~/rd/myworkshopca/DataScienceBasic/lessons/07-python/covidspread.ipynb
 ```
