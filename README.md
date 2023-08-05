@@ -57,3 +57,10 @@ mkdir -v ~/rd/myworkshopca/DataScienceBasic/data
 ```bash
 mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/05-relational-databases
 ```
+
+07 python
+```bash
+mkdir -v ~/rd/myworkshopca/DataScienceBasic/lessons/07-python
+vert new ~/rd/myworkshopca/DataScienceBasic/lessons/07-python/panada-basic.ipynb
+mv -v ~/Downloads/notebook.ipynb ~/rd/myworkshopca/DataScienceBasic/lessons/07-python/panada-basic.ipynb
+```
