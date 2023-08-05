@@ -55,6 +55,8 @@ sqlite3 -echo -table ~/rd/myworkshopca/DataScienceBasic/data/airports.db < /tmp/
 
 ### put them all together
 
+vim map to execute sqlite
+
 One command to do:
 - save the selected lines into tmp sql file
 - execute the temp sql file
@@ -67,4 +69,39 @@ vnoremap \lq :w! /tmp/search.sql<CR>:!sqlite3 -echo -table ~/rd/myworkshopca/Dat
 vnoremap \lq :!w /tmp/search.sql <CR> :exec "!sqlite3 -table ~/rd/myworkshopca/DataScienceBasic/data/airports.db < /tmp/search.sql"<CR>
 
 vnoremap \lq y:!echo <c-r>" > /tmp/search.sql; sqlite3 -table ~/rd/myworkshopca/DataScienceBasic/data/airports.db < /tmp/search.sql > /tmp/result<CR>:vert new /tmp/result<CR>
+```
+
+## assignment and answers
+
+all city names in cities table.
+
+```sql
+-- show table structure
+-- Notice that there is no semicolon (;) after the table name.
+-- If you add a semicolon (;), the .schema will consider the albums;
+-- as the table name and returns nothing because the table albums;
+-- does not exist.
+.schema cities
+
+select distinct city from cities;
+
+-- show all countries
+select country from cities;
+select distinct country from cities;
+```
+
+All cities in Ireland in cities table 
+
+```sql
+select city from cities where country='Ireland';
+```
+
+All airport names with their city and country
+
+```sql
+```
+
+All aireports in London Unitied Kingdom
+
+```sql
 ```
