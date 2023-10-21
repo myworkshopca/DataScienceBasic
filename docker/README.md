@@ -25,7 +25,7 @@ cd ~/rd/myworkshopca/DataScienceBasic/docker; ls -la
 
 # check the current status.
 cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose ps
-cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose ls
+docker compose ls
 
 # create image.
 cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose create
