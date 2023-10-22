@@ -53,3 +53,40 @@ We will use vim virtual mode to setup vim map.
 vnoremap \py :w! /tmp/simple.py \| exec "!python3 /tmp/simple.py"<CR>
 ```
 
+## let test python lambda
+
+```python
+x = lambda a, b : a * b; print(x(12, 13));
+x = lambda a, b : a * b; print(x(11, 13));
+x = lambda a, b : a * b; print(x(11, 18));
+```
+
+## test curses lib
+
+Let's make a simple curses program.
+```python
+import curses
+
+def window(stdscr):
+
+    #stdscr.addstr(2, 2, chr(9658))
+    stdscr.addstr(3, 2, "Hello Curses")
+
+    # get size of the screen.
+    sh, sw = stdscr.getmaxyx()
+
+    msg = "Python curses Coordinate System"
+    stdscr.addstr(sh // 2 - 4, sw // 2 - len(msg) // 2, msg)
+    msg = "Press arrow keys to move around, Press ESC or q to exit" 
+    stdscr.addstr(sh // 2 - 2, sw // 2 - len(msg) // 2, msg)
+    
+    while True:
+
+        user_key = stdscr.getch()
+
+        # exit when user press ESC q or Q
+        if user_key in [27, 113, 81]:
+            break
+
+curses.wrapper(window)
+```
