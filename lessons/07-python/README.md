@@ -12,6 +12,13 @@ Here are some simple Python one line program.
 print('Hello Python');
 
 a = 1; print(a);
+
+print(1024 * 1024)
+
+# 1MB
+a = 1024 * 1024; print(a)
+# 128MB
+a = 128 * 1024 * 1024; print(a)
 ```
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
