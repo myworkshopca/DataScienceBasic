@@ -34,6 +34,24 @@ touch ~/rd/myworkshopca/DataScienceBasic/docker/Dockerfile
 touch ~/rd/myworkshopca/DataScienceBasic/docker/docker-compose.yml
 ```
 
+### review and edit
+
+```vim
+vert new %:h/docker/docker-compose.yml
+```
+
+check what is running now.
+```bash
+docker compose ls
+cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose ls
+cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose ps -a
+cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose build
+cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose create
+cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose start
+
+cd ~/rd/myworkshopca/DataScienceBasic/docker; docker compose down --rmi all
+```
+
 ## lessons
 
 Create the lessons folder
